@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+   font-family:"Montserrat",sans-serif;
+    list-style:none;  
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    align-items: center;  
+}
+li{
+    width: 3rem;
+}
+li:hover{
+font-weight: 900;
+font-size:1vw ;
+color: #000; 
+}
+
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    width: 34.5rem;    
+}
+
+.container-background{
+    background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=90838487-a7fa-4a2c-8cf4-a4748238ac5c&api_key=CometServer1&access_token=1653542164_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_3b829cbe2f50b2fe5ddbe7bb0dabeb72ce067316");
+    background-size: cover;
+    height: 83vh;
+}
+
+h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size:4.87rem; 
+    padding: 15% 0 0 12%;
+}
+h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size:2.18rem ;
+    font-weight: lighter;
+    padding: 2% 0 0 12%;
+}
+ 
